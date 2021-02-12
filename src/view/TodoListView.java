@@ -43,7 +43,15 @@ public class TodoListView {
      * menambahkan Todo ke list
      */
     public void addTodoList(){
+        System.out.println("MENAMBAH TODOLIST");
 
+        var todo = InpuUtil.input("Todo (x Jika Batal)");
+
+        if (todo.equals("x")){
+            // batal
+        } else {
+            todoListService.addTodoList(todo);
+        }
     }
 
     /**
