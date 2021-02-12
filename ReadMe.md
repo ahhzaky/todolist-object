@@ -10,6 +10,6 @@
       - Bisnis logic
       - Data representation
       - kontrak method
-    _ View
+    - View
 
       
