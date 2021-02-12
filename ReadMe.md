@@ -13,5 +13,10 @@
       - kontrak method
       - Implementation method from service _(override service)_
     - View
+      - Tempat User melakukan interaksi
 
+
+### Jalankan Aplikasi 
+Main class :
+`src/AplikasiTodoListObject.java`
       
